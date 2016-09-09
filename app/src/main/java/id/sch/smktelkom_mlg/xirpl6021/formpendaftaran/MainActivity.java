@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        int x -5
         etNam = (EditText) findViewById(R.id.editTextNm);
         etEmail = (EditText) findViewById(R.id.editTextEmail);
 
