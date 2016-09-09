@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        etNam = (EditText) findViewById(R.id.editTextNm);
-        etEmail = (EditText) findViewById(R.id.editTextEmail);
-
         cbFut = (CheckBox) findViewById(R.id.checkBoxFut);
         cbFO = (CheckBox) findViewById(R.id.checkBoxFO);
         cbPram = (CheckBox) findViewById(R.id.checkBoxPram);
