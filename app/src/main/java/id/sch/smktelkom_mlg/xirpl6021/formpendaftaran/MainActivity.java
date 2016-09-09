@@ -24,11 +24,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        etNam = (EditText) findViewById(R.id.editTextNm);
+        etEmail = (EditText) findViewById(R.id.editTextEmail);
 
 
-        cbFO = (CheckBox) findViewById(R.id.checkBoxFO);
-        cbPram = (CheckBox) findViewById(R.id.checkBoxPram);
-        cbVisi = (CheckBox) findViewById(R.id.checkBoxVisi);
 
         spinKe = (Spinner) findViewById(R.id.spinnerKe);
 
